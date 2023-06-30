@@ -1,7 +1,7 @@
 //
 //  ViewController.swift
 //  Arquiteturas
-//  GitToken: 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
+//  Git push token: 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
 //  Created by Oren Pelosof on 13/06/23.
 //
 
