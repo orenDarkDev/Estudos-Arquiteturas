@@ -14,6 +14,9 @@
 		FA01C2792A3957CD00B48B4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA01C2772A3957CD00B48B4F /* Main.storyboard */; };
 		FA01C27B2A3957CE00B48B4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA01C27A2A3957CE00B48B4F /* Assets.xcassets */; };
 		FA01C27E2A3957CE00B48B4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA01C27C2A3957CE00B48B4F /* LaunchScreen.storyboard */; };
+		FA8E2CCA2A4F550D0064F997 /* Constants.swif.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8E2CC92A4F550D0064F997 /* Constants.swif.swift */; };
+		FA8E2CCC2A521B880064F997 /* UserBusiness.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8E2CCB2A521B880064F997 /* UserBusiness.swift */; };
+		FAAC663A2A536242006B4B4C /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAC66392A536242006B4B4C /* UserManager.swift */; };
 		FAB54D6E2A428EC100D43EC2 /* UserProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB54D6D2A428EC100D43EC2 /* UserProvider.swift */; };
 		FAB54D712A428FA000D43EC2 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB54D702A428FA000D43EC2 /* UserModel.swift */; };
 /* End PBXBuildFile section */
@@ -30,6 +33,9 @@
 		FA01C27A2A3957CE00B48B4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA01C27D2A3957CE00B48B4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA01C27F2A3957CE00B48B4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA8E2CC92A4F550D0064F997 /* Constants.swif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swif.swift; sourceTree = "<group>"; };
+		FA8E2CCB2A521B880064F997 /* UserBusiness.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserBusiness.swift; sourceTree = "<group>"; };
+		FAAC66392A536242006B4B4C /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
 		FAB54D6D2A428EC100D43EC2 /* UserProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProvider.swift; sourceTree = "<group>"; };
 		FAB54D702A428FA000D43EC2 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -84,11 +90,20 @@
 		FA01C2702A3957CD00B48B4F /* Arquiteturas */ = {
 			isa = PBXGroup;
 			children = (
+				FA8E2CC82A4F548E0064F997 /* Infrastructure */,
 				FAB54D6C2A42877700D43EC2 /* Source */,
 				FAB54D682A40A01F00D43EC2 /* API */,
 				FA01C27F2A3957CE00B48B4F /* Info.plist */,
 			);
 			path = Arquiteturas;
+			sourceTree = "<group>";
+		};
+		FA8E2CC82A4F548E0064F997 /* Infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				FA8E2CC92A4F550D0064F997 /* Constants.swif.swift */,
+			);
+			path = Infrastructure;
 			sourceTree = "<group>";
 		};
 		FAB54D682A40A01F00D43EC2 /* API */ = {
@@ -105,6 +120,7 @@
 		FAB54D692A40A04500D43EC2 /* Business */ = {
 			isa = PBXGroup;
 			children = (
+				FA8E2CCB2A521B880064F997 /* UserBusiness.swift */,
 			);
 			path = Business;
 			sourceTree = "<group>";
@@ -112,6 +128,7 @@
 		FAB54D6A2A40A04900D43EC2 /* Manager */ = {
 			isa = PBXGroup;
 			children = (
+				FAAC66392A536242006B4B4C /* UserManager.swift */,
 			);
 			path = Manager;
 			sourceTree = "<group>";
@@ -265,6 +282,9 @@
 				FA01C2722A3957CD00B48B4F /* AppDelegate.swift in Sources */,
 				FAB54D712A428FA000D43EC2 /* UserModel.swift in Sources */,
 				FA01C2742A3957CD00B48B4F /* SceneDelegate.swift in Sources */,
+				FA8E2CCA2A4F550D0064F997 /* Constants.swif.swift in Sources */,
+				FAAC663A2A536242006B4B4C /* UserManager.swift in Sources */,
+				FA8E2CCC2A521B880064F997 /* UserBusiness.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
