@@ -90,9 +90,9 @@
 		FA01C2702A3957CD00B48B4F /* Arquiteturas */ = {
 			isa = PBXGroup;
 			children = (
-				FA8E2CC82A4F548E0064F997 /* Infrastructure */,
 				FAB54D6C2A42877700D43EC2 /* Source */,
 				FAB54D682A40A01F00D43EC2 /* API */,
+				FA8E2CC82A4F548E0064F997 /* Infrastructure */,
 				FA01C27F2A3957CE00B48B4F /* Info.plist */,
 			);
 			path = Arquiteturas;
@@ -111,8 +111,8 @@
 			children = (
 				FAB54D6F2A428F7000D43EC2 /* Model */,
 				FAB54D6B2A40A04E00D43EC2 /* Provider */,
-				FAB54D6A2A40A04900D43EC2 /* Manager */,
 				FAB54D692A40A04500D43EC2 /* Business */,
+				FAB54D6A2A40A04900D43EC2 /* Manager */,
 			);
 			path = API;
 			sourceTree = "<group>";
